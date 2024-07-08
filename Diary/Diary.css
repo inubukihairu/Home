@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Kaushan Script';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://themes.googleusercontent.com/static/fonts/kaushanscript/v1/qx1LSqts-NtiKcLw4N03IFhlQWQpSCpzb2Peu3I-Q34.woff) format('woff');
+  }
+
+  @media screen and (max-width:480px) {
+
+	/*　この位置に記述する　*/
+	main {
+		width: 100%;
+	}
+
+}
+
+html
+{
+    max-height: 100px;
+    min-height: 100px;
+}
+
+body
+{
+    position:relative;
+    background-position: center center;
+    background-image:url("../img/character.png"),
+                     url("../img/sakura.png");  
+	background-repeat: no-repeat;
+	background-position: top;  
+    background-size: 32%,
+                     620%; 
+} 
+
+@media (max-width: 768px)
+{
+    body
+    {
+        background-position: center center;
+        background-image:url("../img/character.png"),
+                         url("../img/sakura.png");  
+	    background-repeat: no-repeat;
+	    background-position: top;  
+        background-size: 120%,
+                         620%; 
+    }
+} 
+
+#date
+{
+    text-align: right;
+    font-size: 100%;
+    margin-right: 5%;
+}
+
+#info
+{
+    width: 70%;
+    height: 250%;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color:rgba(255, 255, 255, 70%);
+    margin-left: 15%;
+    margin-right: 15%;
+}
